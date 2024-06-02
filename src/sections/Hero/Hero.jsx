@@ -44,18 +44,18 @@ function Hero() {
                 Software Developer
             </h2>
             <span>
-                <a href="https://twitter.com/" target="_blank">
+                <a href="mailto:aishanirfan6@gmail.com" target="_blank">
                     <img src={gmailIcon} alt="Gmail Icon" />
                 </a>
-                <a href="https://github.com/" target="_blank">
+                <a href="https://github.com/aiishaan" target="_blank">
                     <img src={githubIcon} alt="Github Icon" />
                 </a>
-                <a href="https://linkedin.com/" target="_blank">
+                <a href="https://www.linkedin.com/in/aishan-irfan-b49b37136/" target="_blank">
                     <img src={linkedinIcon} alt="Linkedin Icon" />
                 </a>
             </span>
             <p className={styles.description}>
-                my introduction. for now this is random bs but i will eventually add some more random bs from chat gpt later on here!
+            glad you're here! I'm a CS student and a software engineer who loves coding and building cool stuff. Check out my projects and let's connect!
             </p>
             <a href={CV} target="_blank">
                 <button className="hover" download>

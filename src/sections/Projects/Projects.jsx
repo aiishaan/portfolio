@@ -1,8 +1,12 @@
 import styles from './ProjectsStyles.module.css'
-import viberr from '../../assets/viberr.png'
-import freshBurger from '../../assets/fresh-burger.png'
-import hippster from '../../assets/hipsster.png'
-import fitLift from '../../assets/fitlift.png'
+import lingo from '../../assets/lingo.jpg'
+import aiAlly from '../../assets/aiAlly.jpg'
+import casesAndCovers from '../../assets/casesAndCovers.jpg'
+import rebuildis from '../../assets/rebuildis.jpg'
+import jungleRumble from '../../assets/jungleRumble.jpg'
+import takeNotes from '../../assets/takeNotes.jpg'
+import sCheckout from '../../assets/sCheckout.jpg'
+import memeGen from '../../assets/meme.png'
 import ProjectCard from '../../common/ProjectCard'
 
 function Projects() {
@@ -13,28 +17,52 @@ function Projects() {
         </h1>
         <div className={styles.projectsContainer}>
             <ProjectCard 
-            src={viberr} 
-            link="https://github.com/aiishaan/ecommerceDashboard"
-            h3="DBoard"
-            p="Ecommerce Dashboard App"
+            src={lingo} 
+            link="https://github.com/aiishaan/lingo"
+            h3="lingo"
+            p="Language Learning App"
             />
             <ProjectCard 
-            src={freshBurger} 
+            src={aiAlly} 
+            link="https://github.com/aiishaan/aiAlly"
+            h3="aiAlly"
+            p="Ai Chat Bot"
+            />
+            <ProjectCard 
+            src={casesAndCovers} 
+            link="https://github.com/aiishaan/casesAndCovers"
+            h3="casesAndCovers"
+            p="Ecommerce store"
+            />
+            <ProjectCard 
+            src={rebuildis} 
+            link="https://github.com/aiishaan/rebuildis"
+            h3="rebuildIs"
+            p="my very own database"
+            />
+            <ProjectCard 
+            src={jungleRumble} 
             link="https://github.com/aiishaan/Jungle-Rumble"
-            h3="Jungle Rumble"
+            h3="jungleRumble"
             p="Retro Game"
             />
             <ProjectCard 
-            src={hippster} 
-            link="https://github.com/aiishaan/saltedHashbrowns"
-            h3="Salted Hashbrowns"
-            p="Password Services"
+            src={takeNotes} 
+            link="https://github.com/aiishaan/takeNotes"
+            h3="takeNotes"
+            p="Note taking App"
             />
             <ProjectCard 
-            src={fitLift} 
+            src={memeGen} 
+            link="https://github.com/aiishaan/memeGenerator"
+            h3="memeGenerator"
+            p="Random meme generator/editor"
+            />
+            <ProjectCard 
+            src={sCheckout} 
             link="https://github.com/aiishaan/SelfCheckOut-software"
-            h3="CheckoutInStyle"
-            p="Self Checkout Station"
+            h3="sCheckout"
+            p="Self Checkout Control Software"
             />
         </div>
         </section>
