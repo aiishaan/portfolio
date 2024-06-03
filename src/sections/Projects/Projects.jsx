@@ -54,7 +54,7 @@ function Projects() {
             />
             <ProjectCard 
             src={memeGen} 
-            link="https://github.com/aiishaan/memeGenerator"
+            link="https://teal-moonbeam-642746.netlify.app"
             h3="memeGenerator"
             p="Random meme generator/editor"
             />
