@@ -4,7 +4,7 @@
 Welcome to my portfolio website. This is a showcase of my projects, skills, and experiences. Built with a focus on simplicity and elegance, the site highlights my journey as a developer and my contributions to various projects.
 
 ## Link to the website
-  `https://aishanirfan.netlify.app/`
+  Visit my portfolio [here](https://aishanirfan.netlify.app/).
 
 ## Features
 - **Home:** Introduction and a brief overview of my background.
