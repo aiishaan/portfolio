@@ -104,3 +104,57 @@ p {
     }
 }
 
+
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.logo {
+    width: 100px; /* Adjust the width as needed */
+    transition: transform 0.5s ease-in-out;
+    cursor: pointer;
+}
+
+.logo:hover {
+    animation: spin 0.5s ease-in-out;
+}
+
+
+
+
+.animate-text {
+    transition: color 0.5s;
+    cursor: pointer;
+}
+
+.animate-text:hover {
+    color: #ef4c0c; /* Tomato color */
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.contact-logo {
+    width: 100px; /* Adjust the width as needed */
+    transition: transform 0.5s ease-in-out;
+}
+
+.contact-logo:hover {
+    animation: pulse 1s infinite;
+}
+

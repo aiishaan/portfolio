@@ -45,17 +45,17 @@ function Hero() {
             </h2>
             <span>
                 <a href="mailto:aishanirfan6@gmail.com" target="_blank">
-                    <img src={gmailIcon} alt="Gmail Icon" />
+                    <img className='contact-logo' src={gmailIcon} alt="Gmail Icon" />
                 </a>
                 <a href="https://github.com/aiishaan" target="_blank">
-                    <img src={githubIcon} alt="Github Icon" />
+                    <img className='contact-logo' src={githubIcon} alt="Github Icon" />
                 </a>
                 <a href="https://www.linkedin.com/in/aishan-irfan-b49b37136/" target="_blank">
-                    <img src={linkedinIcon} alt="Linkedin Icon" />
+                    <img className='contact-logo' src={linkedinIcon} alt="Linkedin Icon" />
                 </a>
             </span>
             <p className={styles.description}>
-            glad you're here! I'm a CS student and a software engineer who loves coding and building cool stuff. Check out my projects and let's connect!
+            <span className='animate-text'>glad you're here! </span>I'm a CS student and a software engineer who loves coding and building cool stuff. Check out my projects and let's connect!
             </p>
             <a href={CV} target="_blank">
                 <button className="hover" download>
