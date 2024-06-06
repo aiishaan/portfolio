@@ -48,7 +48,7 @@ function Projects() {
             />
             <ProjectCard 
             src={takeNotes} 
-            link="https://github.com/aiishaan/takeNotes"
+            link="https://takeenotes.netlify.app/"
             h3="takeNotes"
             p="Note taking App"
             />
