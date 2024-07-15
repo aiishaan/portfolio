@@ -16,11 +16,11 @@ function Projects() {
             Projects
         </h1>
         <div className={styles.projectsContainer}>
-        <ProjectCard 
+            <ProjectCard 
             src={casesAndCovers} 
             link="https://casesandcovers.vercel.app/"
             h3="casesAndCovers"
-            p="Custom case store"
+            p="Custom cases"
             />
             
             <ProjectCard 
