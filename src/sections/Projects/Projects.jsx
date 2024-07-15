@@ -39,7 +39,7 @@ function Projects() {
             src={rebuildis} 
             link="https://github.com/aiishaan"
             h3="rebuildIs"
-            p="my very own database"
+            p="in-memory Databse"
             />
             <ProjectCard 
             src={jungleRumble} 
@@ -51,19 +51,19 @@ function Projects() {
             src={takeNotes} 
             link="https://takeenotes.netlify.app/"
             h3="takeNotes"
-            p="Note taking App"
+            p="Notes App"
             />
             <ProjectCard 
             src={memeGen} 
             link="https://teal-moonbeam-642746.netlify.app"
             h3="memeGenerator"
-            p="Random meme generator/editor"
+            p="meme generator/editor"
             />
             <ProjectCard 
             src={sCheckout} 
             link="https://github.com/aiishaan/SelfCheckOut-software"
             h3="sCheckout"
-            p="Self Checkout Control Software"
+            p="Control Software"
             />
         </div>
         </section>
