@@ -16,12 +16,13 @@ function Projects() {
             Projects
         </h1>
         <div className={styles.projectsContainer}>
-            <ProjectCard 
-            src={lingo} 
-            link="https://github.com/aiishaan"
-            h3="lingo"
-            p="Language Learning App"
+        <ProjectCard 
+            src={casesAndCovers} 
+            link="https://casesandcovers.vercel.app/"
+            h3="casesAndCovers"
+            p="Custom case store"
             />
+            
             <ProjectCard 
             src={aiAlly} 
             link="https://github.com/aiishaan"
@@ -29,10 +30,10 @@ function Projects() {
             p="Ai Chat Bot"
             />
             <ProjectCard 
-            src={casesAndCovers} 
+            src={lingo} 
             link="https://github.com/aiishaan"
-            h3="casesAndCovers"
-            p="Ecommerce store"
+            h3="lingo"
+            p="Language Learning App"
             />
             <ProjectCard 
             src={rebuildis} 
