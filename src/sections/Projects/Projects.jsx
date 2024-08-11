@@ -24,17 +24,19 @@ function Projects() {
             />
             
             <ProjectCard 
+            src={lingo} 
+            link="https://lingo-orpin-gamma.vercel.app/"
+            h3="lingo"
+            p="Language Learning App"
+            />
+
+            <ProjectCard 
             src={aiAlly} 
             link="https://github.com/aiishaan"
             h3="aiAlly"
             p="Ai Chat Bot"
             />
-            <ProjectCard 
-            src={lingo} 
-            link="https://github.com/aiishaan"
-            h3="lingo"
-            p="Language Learning App"
-            />
+            
             <ProjectCard 
             src={rebuildis} 
             link="https://github.com/aiishaan"
